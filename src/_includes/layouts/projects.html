@@ -1,0 +1,20 @@
+{% extends "layouts/base.html" %}
+
+{% block head %}
+    
+{% endblock %}
+
+{% block content %}
+    <a href="/">back</a>
+    <article>
+        {{ content | safe}}
+    </article>
+    <ul>
+        {% for tag in tags %}
+        <a href="/projects/tag/{{ tag | slugify }}">{{ tag }}</a>
+            
+        {% endfor %}
+    </ul>
+
+{% endblock %}
+

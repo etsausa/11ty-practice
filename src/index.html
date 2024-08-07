@@ -1,0 +1,17 @@
+---
+layout: layouts/base.html
+title: 11ty project
+---
+
+<h1>{{title}}</h1>
+<p>hello</p>
+
+
+<ul>
+    {% for project in collections.projects %}
+        <li><a href="{{ project.url }}">{{ project.data.title }}</a></li>
+    {% endfor %}
+</ul>
+
+
+<!-- <img src="/assets/images/logo.png" alt="logo image"> -->
