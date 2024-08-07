@@ -13,5 +13,14 @@ title: 11ty project
     {% endfor %}
 </ul>
 
+{% for job in resume %}
+
+    <h2>{{ job.title }}</h2>
+    <span>{{ job.company}}</span><br>
+    <span><i>{{ job.startDate }} - {{ job.endDate }}</i></span>
+    <hr>
+    
+{% endfor %}
+
 
 <!-- <img src="/assets/images/logo.png" alt="logo image"> -->
