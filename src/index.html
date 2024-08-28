@@ -1,21 +1,24 @@
 ---
 layout: layouts/base.html
-title: 11ty project
+title: Ethan Thomas Sausa
 ---
 
 <h1>{{title}}</h1>
-<p>hello</p>
 
 
+<!-- project list -->
+<h2>Projects</h2>
 <ul>
     {% for project in collections.projects %}
         <li><a href="{{ project.url }}">{{ project.data.title }}</a></li>
     {% endfor %}
 </ul>
 
+<!-- resume list -->
+<h2>Resume</h2>
 {% for job in resume %}
 
-    <h2>{{ job.title }}</h2>
+    <h3>{{ job.title }}</h3>
     <span>{{ job.company}}</span><br>
     <span><i>{{ job.startDate }} - {{ job.endDate }}</i></span>
     <hr>
