@@ -14,10 +14,14 @@ collections:
   fields:
     - { label: "title", name: "title", widget: "string" }
     - { label: "Body", name: "body", widget: "markdown"}
-    - { label: "tags", name: "tags", widget: "list", default: ["post"]}
+    - { label: "tags", name: "tags", widget: "list", default: ["projects"]}
 
 
 
 # notes:
 #label -> what we see on CMS UI
 #name -> what it is called in code
+
+#https://app.netlify.com/
+#https://decapcms.org/docs/basic-steps/
+#https://youtu.be/4wD00RT6d-g?si=o8u1ltwoNHPZlifv
