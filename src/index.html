@@ -3,9 +3,6 @@ layout: layouts/base.html
 title: Ethan Thomas Sausa
 ---
 
-<h1>{{title}}</h1>
-
-
 <!-- project list -->
 <h2>Projects</h2>
 <ul>
@@ -16,14 +13,13 @@ title: Ethan Thomas Sausa
 
 <!-- resume list -->
 <h2>Resume</h2>
+<ul role="list">
 {% for job in resume %}
-
-    <h3>{{ job.title }}</h3>
-    <span>{{ job.company}}</span><br>
-    <span><i>{{ job.startDate }} - {{ job.endDate }}</i></span>
-    <hr>
-    
+    <li>
+        {% include 'resume-item.html' %}
+    </li>
 {% endfor %}
+</ul>
 
 
 <!-- <img src="/assets/images/logo.png" alt="logo image"> -->

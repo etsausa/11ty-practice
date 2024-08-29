@@ -6,7 +6,30 @@ body{
     color: white;
     font-family: "Poppins", sans-serif;
 
-    margin-inline: auto;
-    padding-inline: 1.5em;
     max-width: 72rem;
 }
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 0 0 1em 0;
+}
+
+ul:where([role="list"]),
+ol:where([role="list"]) {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* utility classes */
+.flex-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--gap, 1em);
+  }
