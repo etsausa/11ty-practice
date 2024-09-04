@@ -4,24 +4,27 @@
     {% include "basehead.html" %}
     {% block head %}{% endblock %}
 </head>
-<header>
-    <h1>Ethan Thomas Sausa</h1>
-    <nav>
-        <ul role="list" class="flex_group">
-            <li><a href="/">home</a></li>
-            <li><a href="/projects">projects</a></li>
-            <li><a href="/resume">resume</a></li>
-        </ul>
-    </nav>
-    
-</header>
+
 <body>
-    {% block content %}
-        {{content | safe}}
-    {% endblock %}
+    <header>
+        <h1>Ethan Thomas Sausa</h1>
+        <img src="/assets/images/logo.png" alt="logo image" class="logo">
+        <nav>
+            <ul role="list">
+                <li><a href="/">home</a></li>
+                <li><a href="/projects">projects</a></li>
+                <li><a href="/resume">resume</a></li>
+            </ul>
+        </nav>    
+    </header>
+
+    <main>
+        {% block content %}
+            {{content | safe}}
+        {% endblock %}
+    </main>
     
     <footer>
-        <hr>
         <a href="/contact">contact</a>
         developed by ethan sausa with 11ty
     </footer>

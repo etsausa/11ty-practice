@@ -5,23 +5,37 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="/css/style.css">
 <title>[object Object]</title>
-
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<script defer>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", (user) => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
     
 </head>
-<header>
-    <h1>Ethan Thomas Sausa</h1>
-    <nav>
-        <ul role="list" class="flex_group">
-            <li><a href="/">home</a></li>
-            <li><a href="/projects">projects</a></li>
-            <li><a href="/resume">resume</a></li>
-        </ul>
-    </nav>
-    
-</header>
+
 <body>
-    
+    <header>
+        <h1>Ethan Thomas Sausa</h1>
+        <img src="/assets/images/logo.png" alt="logo image" class="logo">
+        <nav>
+            <ul role="list">
+                <li><a href="/">home</a></li>
+                <li><a href="/projects">projects</a></li>
+                <li><a href="/resume">resume</a></li>
+            </ul>
+        </nav>    
+    </header>
+
+    <main>
         
+            
 <h1>video</h1>
 <ul>
     
@@ -31,10 +45,10 @@
         
 </ul>
 
-    
+        
+    </main>
     
     <footer>
-        <hr>
         <a href="/contact">contact</a>
         developed by ethan sausa with 11ty
     </footer>

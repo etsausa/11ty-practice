@@ -36,48 +36,8 @@
     <main>
         
             
-<h1>all</h1>
+<h1>post</h1>
 <ul>
-    
-    <li>
-        <a href="/contact/">contact</a>
-    </li>
-    
-    <li>
-        <a href="/">Ethan Thomas Sausa</a>
-    </li>
-    
-    <li>
-        <a href="/projects/tag/all">[object Object]</a>
-    </li>
-    
-    <li>
-        <a href="/projects/tag/projects">[object Object]</a>
-    </li>
-    
-    <li>
-        <a href="/projects/tag/video">[object Object]</a>
-    </li>
-    
-    <li>
-        <a href="/projects/tag/web">[object Object]</a>
-    </li>
-    
-    <li>
-        <a href="/projects/tag/post">[object Object]</a>
-    </li>
-    
-    <li>
-        <a href="/projects/project1/">project1</a>
-    </li>
-    
-    <li>
-        <a href="/projects/project2/">project2</a>
-    </li>
-    
-    <li>
-        <a href="/admin/"></a>
-    </li>
     
     <li>
         <a href="/projects/test/">test</a>
