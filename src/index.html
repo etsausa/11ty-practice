@@ -1,25 +1,11 @@
 ---
 layout: layouts/base.html
-title: Ethan Thomas Sausa
+title: 'Hi, my name is Ethan.'
 ---
 
-<!-- project list -->
-<h2>Projects</h2>
-<ul>
-    {% for project in collections.projects %}
-        <li><a href="{{ project.url }}">{{ project.data.title }}</a></li>
-    {% endfor %}
-</ul>
+<p>I'm a multimedia professional. Video, Marketing, Graphics, and Web. </p>
+<p>Currently I work in digital marketing design.</p>
+<p>Check out my projects and get in touch. 🤙 </p>
 
-<!-- resume list -->
-<h2>Resume</h2>
-<br>
-<ul role="list">
-{% for job in resume %}
-    <li>
-        {% include 'resume-item.html' %}
-    </li>
-{% endfor %}
-</ul>
 
 

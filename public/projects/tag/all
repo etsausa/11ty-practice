@@ -34,6 +34,8 @@
     </header>
 
     <main>
+        <h1>[object Object]</h1>
+        
         
             
 <h1>all</h1>
@@ -44,7 +46,11 @@
     </li>
     
     <li>
-        <a href="/">Ethan Thomas Sausa</a>
+        <a href="/projects/project1/">project1</a>
+    </li>
+    
+    <li>
+        <a href="/projects/project2/">project2</a>
     </li>
     
     <li>
@@ -68,19 +74,23 @@
     </li>
     
     <li>
-        <a href="/projects/project1/">project1</a>
-    </li>
-    
-    <li>
-        <a href="/projects/project2/">project2</a>
-    </li>
-    
-    <li>
         <a href="/admin/"></a>
     </li>
     
     <li>
+        <a href="/">Hi, my name is Ethan.</a>
+    </li>
+    
+    <li>
         <a href="/projects/test/">test</a>
+    </li>
+    
+    <li>
+        <a href="/projects/">Projects</a>
+    </li>
+    
+    <li>
+        <a href="/resume/">Resume</a>
     </li>
         
 </ul>

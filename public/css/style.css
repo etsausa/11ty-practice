@@ -3,7 +3,7 @@
 /* https://every-layout-basic.netlify.app/ */
 :root{
     font-size: 18px;
-    --max-width: 72rem;
+    --max-width: 48rem;
     --gap: 1rem;
 }
 
@@ -13,16 +13,15 @@ body{
     color: white;
     font-family: "Poppins", sans-serif;
 
-    /* display: flex; */
-    /* flex-direction: column; */
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: var(--max-width);
 
-    /* margin: auto; */
-    /* max-width: var(--max-width); */
-
-    margin: 0;
-    display: grid;
-    grid-template-rows: auto 1fr auto;
-    justify-content: center;
+    /* margin: 0; */
+    /* display: grid; */
+    /* grid-template-rows: auto 1fr auto; */
+    /* justify-content: center; */
     
 }
 header{
@@ -40,25 +39,26 @@ nav{
 nav>ul{
     display: flex;
     gap:var(--gap, 2rem)
-   
 }
 
 nav>ul>li>a{
-    padding: 0rem;
 }
 
 main{
-    padding:0rem 0;
-    
+    flex: 1;
+}
+
+section{
+    padding: 0 0 2rem 0;
 }
 
 footer{
     /* position: fixed; */
-    bottom: 0;
+    /* bottom: 0; */
     /* width: 100%; */
-    padding: 1rem;
+    padding: 1rem 0;
 
-    background-color: rgb(36, 12, 12);
+    background-color: rgb(14, 12, 12);
 }
 
 /* text */
@@ -70,12 +70,37 @@ ol:where([role="list"]) {
 }
 
 p{
-    font-size: 60ch;
+    max-width: 60ch;
 }
 /* classes */
 .logo{
     width: 3rem;
     /* rotate: 90deg; */
+}
+
+.project-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(var(--min),1fr));
+    align-content: start;
+    gap: 1rem;
+    
+    color: black;
+    text-align: center;
+    
+    
+}
+
+.project-list>li{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+    padding: 1rem;
+
+    --size: 10rem;
+    width: var(--size);
+    height: var(--size);
+    background-color: aqua;
 }
 
 /* utility classes

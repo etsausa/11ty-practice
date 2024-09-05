@@ -1,0 +1,10 @@
+---
+layout: layouts/base.html
+title: Projects
+---
+
+<ul role="list" class="project-list">
+    {% for project in collections.projects %}
+        <li><a href="{{ project.url }}">{{ project.data.title }}</a></li>
+    {% endfor %}
+</ul>

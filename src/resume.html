@@ -1,0 +1,27 @@
+---
+layout: layouts/base.html
+title: Resume
+---
+
+<!-- resume list -->
+
+<section>
+    <h2>WORK</h2>
+    <ul role="list">
+        {% for job in resume %}
+            <li>
+                {% include 'resume-item.html' %}
+            </li>
+        {% endfor %}
+    </ul>
+</section>
+
+<section>
+    <h2>EDUCATION</h2>
+    <h3><strong>Ithaca College</strong> | 2016 - 2020</h3>
+    <h3><strong>Emerging Media, B.S.,</strong> Magna Cum Laude</h3>
+    <span><i>A joint computer science & communications program focused on new media</i></span><br>
+    <span>Web Development Minor & Animation Minor </span><br>
+    <hr>
+</section>
+
