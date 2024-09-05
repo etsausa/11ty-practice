@@ -46,14 +46,6 @@
     </li>
     
     <li>
-        <a href="/projects/project1/">project1</a>
-    </li>
-    
-    <li>
-        <a href="/projects/project2/">project2</a>
-    </li>
-    
-    <li>
         <a href="/projects/tag/all">[object Object]</a>
     </li>
     
@@ -62,11 +54,11 @@
     </li>
     
     <li>
-        <a href="/projects/tag/video">[object Object]</a>
+        <a href="/projects/tag/web">[object Object]</a>
     </li>
     
     <li>
-        <a href="/projects/tag/web">[object Object]</a>
+        <a href="/projects/tag/video">[object Object]</a>
     </li>
     
     <li>
@@ -74,15 +66,23 @@
     </li>
     
     <li>
+        <a href="/projects/project1/">project1</a>
+    </li>
+    
+    <li>
+        <a href="/projects/project2/">project2</a>
+    </li>
+    
+    <li>
         <a href="/admin/"></a>
     </li>
     
     <li>
-        <a href="/">Hi, my name is Ethan.</a>
+        <a href="/projects/test/">test</a>
     </li>
     
     <li>
-        <a href="/projects/test/">test</a>
+        <a href="/">Hi, my name is Ethan.</a>
     </li>
     
     <li>
