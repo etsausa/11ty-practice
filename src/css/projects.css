@@ -1,0 +1,35 @@
+.project-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(var(--min),1fr));
+    align-content: start;
+    gap: var(--gap);
+    
+    color: black;
+    text-align: center;   
+
+    margin-top: 2rem;
+}
+
+.project-list>li .project-image{
+    background-color: aqua;
+    aspect-ratio: 1;
+
+    -webkit-filter: brightness(100%);
+    filter: brightness(100%);
+    -webkit-transition: filter 0.2s ease;
+    transition: filter 0.2s ease;
+    
+}
+
+.project-list>li .project-image:hover{
+    --dim: 80%;
+    -webkit-filter: brightness(var(--dim));
+    filter: brightness(var(--dim));
+    
+}
+
+.project-list>li .project-title{
+    margin-top: var(--gap);
+    color:white;
+    text-decoration: none;
+}

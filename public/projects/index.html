@@ -22,8 +22,11 @@
 
 <body>
     <header>
-        <h1>Ethan Thomas Sausa</h1>
-        <img src="/assets/images/logo.png" alt="logo image" class="logo">
+        <div class="title-logo-group">
+            <h1 class="title">Ethan Thomas Sausa</h1> 
+            <img src="/assets/images/logo.png" alt="logo image" class="logo">
+        </div>
+        
         <nav>
             <ul role="list">
                 <li><a href="/">home</a></li>
@@ -40,18 +43,33 @@
             
 <ul role="list" class="project-list">
     
-        <li><a href="/projects/project1/">project1</a></li>
+        <li>
+            <a href="/projects/project1/">
+                <div class="project-image"></div>
+                <div class="project-title">project1</div>
+            </a>
+        </li>
     
-        <li><a href="/projects/project2/">project2</a></li>
+        <li>
+            <a href="/projects/project2/">
+                <div class="project-image"></div>
+                <div class="project-title">project2</div>
+            </a>
+        </li>
     
-        <li><a href="/projects/test/">test</a></li>
+        <li>
+            <a href="/projects/test/">
+                <div class="project-image"></div>
+                <div class="project-title">test</div>
+            </a>
+        </li>
     
 </ul>
         
     </main>
     
     <footer>
-        <a href="/contact">contact</a>
+        <!-- <a href="/contact">contact</a> -->
         developed by ethan sausa with 11ty
     </footer>
 </body>

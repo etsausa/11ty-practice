@@ -22,8 +22,11 @@
 
 <body>
     <header>
-        <h1>Ethan Thomas Sausa</h1>
-        <img src="/assets/images/logo.png" alt="logo image" class="logo">
+        <div class="title-logo-group">
+            <h1 class="title">Ethan Thomas Sausa</h1> 
+            <img src="/assets/images/logo.png" alt="logo image" class="logo">
+        </div>
+        
         <nav>
             <ul role="list">
                 <li><a href="/">home</a></li>
@@ -59,7 +62,7 @@
     </main>
     
     <footer>
-        <a href="/contact">contact</a>
+        <!-- <a href="/contact">contact</a> -->
         developed by ethan sausa with 11ty
     </footer>
 </body>
