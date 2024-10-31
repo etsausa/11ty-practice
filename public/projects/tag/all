@@ -59,15 +59,11 @@
     </li>
     
     <li>
-        <a href="/projects/project1/">Home For All of Us</a>
-    </li>
-    
-    <li>
-        <a href="/projects/project2/">Color Is Crazy</a>
-    </li>
-    
-    <li>
         <a href="/projects/tag/all">[object Object]</a>
+    </li>
+    
+    <li>
+        <a href="/projects/tag/video">[object Object]</a>
     </li>
     
     <li>
@@ -75,15 +71,7 @@
     </li>
     
     <li>
-        <a href="/projects/tag/post">[object Object]</a>
-    </li>
-    
-    <li>
         <a href="/projects/tag/web">[object Object]</a>
-    </li>
-    
-    <li>
-        <a href="/projects/tag/video">[object Object]</a>
     </li>
     
     <li>
@@ -95,15 +83,27 @@
     </li>
     
     <li>
-        <a href="/projects/test/">test</a>
-    </li>
-    
-    <li>
         <a href="/resume/">Resume</a>
     </li>
     
     <li>
         <a href="/projects/">Projects</a>
+    </li>
+    
+    <li>
+        <a href="/projects/project1/">Home For All of Us</a>
+    </li>
+    
+    <li>
+        <a href="/projects/hfaou/">Home For All of Us</a>
+    </li>
+    
+    <li>
+        <a href="/projects/project2/">Color Is Crazy</a>
+    </li>
+    
+    <li>
+        <a href="/projects/cic/">Color Is Crazy</a>
     </li>
         
 </ul>

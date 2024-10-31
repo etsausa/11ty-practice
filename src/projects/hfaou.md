@@ -7,4 +7,6 @@ tags:
 
 # {{ title }}
 
-asdfdas
+A website about not being racist
+
+<a href="www.homeforallofus.org">Home For All of Us</a>
