@@ -1,6 +1,6 @@
 ---
 title: Home For All of Us
-image: /assets/images/HFAOU_mockup.png
+thumbnail: /assets/images/HFAOU_mockup.png
 tags:
   - video
 ---
