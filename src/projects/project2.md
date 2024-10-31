@@ -1,7 +1,8 @@
 ---
 title: project2
+image: /assets/images/HFAOU_mockup.png
 tags:
-    - web
+  - web
 ---
 
 #{{ title }}
