@@ -1,8 +1,8 @@
 ---
-title: project1
-image: '/assets/images/HFAOU_mockup.png'
+title: Home For All of Us
+image: /assets/images/HFAOU_mockup.png
 tags:
-    - video
+  - video
 ---
 
 # {{ title }}
