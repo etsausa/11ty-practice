@@ -1,6 +1,6 @@
 ---
-title: project2
-image: /assets/images/HFAOU_mockup.png
+title: Color Is Crazy
+image: /assets/images/cic_video.png
 tags:
   - web
 ---
