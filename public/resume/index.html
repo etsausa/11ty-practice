@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="/css/style.css">
+<title>Resume</title>
+<!-- favicon -->
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+<link rel="manifest" href="/assets/favicon/site.webmanifest">
+<link rel="mask-icon" href="/assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+<!-- cms -->
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<script defer>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", (user) => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
+    
+</head>
+
+<body>
+    <header>
+        <div class="title-logo-group">
+            <h1 class="title">Ethan Thomas Sausa</h1> 
+            <img src="/assets/images/logo.png" alt="logo image" class="logo">
+        </div>
+        
+        <nav>
+            <ul role="list">
+                <li><a href="/">home</a></li>
+                <li><a href="/projects">projects</a></li>
+                <li><a href="/resume">resume</a></li>
+            </ul>
+        </nav>    
+    </header>
+
+    <main>
+        <h1>Resume</h1>
+        
+        
+            
+<!-- resume list -->
+
+<section>
+    <h2>WORK</h2>
+    <ul role="list">
+        
+            <li>
+                <h3>Digital Marketing Designer</h3>
+<span>Long Island Board of REALTORS®</span><br>
+<span><i>April 2021 - Present</i></span>
+<hr>
+            </li>
+        
+            <li>
+                <h3>IOT Specialist</h3>
+<span>Prosegur</span><br>
+<span><i>December 2020 - April 2021</i></span>
+<hr>
+            </li>
+        
+            <li>
+                <h3>Shift Manager</h3>
+<span>Park Portable Equipment Center and Services</span><br>
+<span><i>August 2017 - March 2020</i></span>
+<hr>
+            </li>
+        
+            <li>
+                <h3>Motion Graphics Animator</h3>
+<span>Roy H. Park School of Communications</span><br>
+<span><i>September 2018 - May 2019</i></span>
+<hr>
+            </li>
+        
+    </ul>
+</section>
+
+<section>
+    <h2>EDUCATION</h2>
+    <h3><strong>Ithaca College</strong> | 2016 - 2020</h3>
+    <h3><strong>Emerging Media, B.S.,</strong> Magna Cum Laude</h3>
+    <span><i>A joint computer science & communications program focused on new media</i></span><br>
+    <span>Web Development Minor & Animation Minor </span><br>
+    <hr>
+</section>
+
+
+        
+    </main>
+    
+    <footer>
+        <!-- <a href="/contact">contact</a> -->
+        developed by ethan sausa with 11ty
+    </footer>
+</body>
+</html>
