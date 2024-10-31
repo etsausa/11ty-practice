@@ -63,15 +63,15 @@
     </li>
     
     <li>
+        <a href="/projects/tag/web">[object Object]</a>
+    </li>
+    
+    <li>
         <a href="/projects/tag/video">[object Object]</a>
     </li>
     
     <li>
         <a href="/projects/tag/projects">[object Object]</a>
-    </li>
-    
-    <li>
-        <a href="/projects/tag/web">[object Object]</a>
     </li>
     
     <li>
@@ -104,6 +104,10 @@
     
     <li>
         <a href="/projects/cic/">Color Is Crazy</a>
+    </li>
+    
+    <li>
+        <a href="/projects/smart-decathelon-for-pros/">Smart Decathelon for Pros</a>
     </li>
         
 </ul>
