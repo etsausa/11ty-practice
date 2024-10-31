@@ -7,7 +7,10 @@ title: Projects
     {% for project in collections.projects %}
         <li>
             <a href="{{ project.url }}">
-                <div class="project-image"></div>
+                <style>
+                    
+                </style>
+                <div class="project-image" style="background-image: url('{{ project.data.image }}');"></div>
                 <div class="project-title">{{ project.data.title }}</div>
             </a>
         </li>

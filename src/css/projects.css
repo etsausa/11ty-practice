@@ -11,8 +11,15 @@
 }
 
 .project-list>li .project-image{
-    background-color: aqua;
+    background-color: var(--light);
     aspect-ratio: 1;
+
+    cursor: pointer;
+
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    
 
     -webkit-filter: brightness(100%);
     filter: brightness(100%);

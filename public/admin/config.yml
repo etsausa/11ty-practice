@@ -12,9 +12,10 @@ collections:
   create: true
   slug: "{{slug}}"
   fields:
-    - { label: "title", name: "title", widget: "string" }
+    - { label: "Title", name: "title", widget: "string" }
     - { label: "Body", name: "body", widget: "markdown"}
-    - { label: "tags", name: "tags", widget: "list", default: ["projects"]}
+    - { label: "Image", name: "image", widget: "image"}
+    - { label: "Tags", name: "tags", widget: "list", default: ["projects"]}
 
 
 

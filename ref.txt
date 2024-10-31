@@ -1,5 +1,7 @@
 
 https://app.netlify.com/
+
+    -goto site > /admin to get to cms
 https://decapcms.org/docs/basic-steps/
 https://youtu.be/4wD00RT6d-g?si=o8u1ltwoNHPZlifv
 
