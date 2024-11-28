@@ -1,11 +1,41 @@
 ---
 layout: layouts/base.html
-title: 'Hi, my name is Ethan.'
+title: About
+tags: nav-item
+navOrder: 1
 ---
+<section class="bio">
+    <img width="150" height="150" class="bio-pic" alt="my face" src="./assets/images/HeadShot_Mini.jpg">
+    <div>
+        <h1>Hi, my name is Ethan. 👋</h1>
+        <p>I'm a multimedia professional. Video, Marketing, Graphics, and Web. </p>
+        <p>Currently I work in digital marketing design.</p>
+        <p>Check out my projects and get in touch. 🤙 </p>
+    </div>
+</section>
 
-<p>I'm a multimedia professional. Video, Marketing, Graphics, and Web. </p>
-<p>Currently I work in digital marketing design.</p>
-<p>Check out my projects and get in touch. 🤙 </p>
+<br>
+<section>
+    <h2>SKILLS</h2>
+    <!-- pulls skills from skill.json -->
+    {% for category, tools in skills %}
+        <h3>
+            {{ category }}
+        </h3>
+        <small>
+        {% for tool in tools %}
+            {% if loop.last %}
+                <span>{{ tool }}</span>
+            {% else %}
+                <span>{{ tool }}, </span>
+            {% endif %}
+        {% endfor %}
+        </small>
+    {% endfor %}
+</section>
+
+
+
 
 
 

@@ -1,14 +1,13 @@
 {% extends "layouts/base.html" %}
 
-{% block head %}
-    
-{% endblock %}
-
 {% block content %}
-    <a href="/">back</a>
+    <a href="/projects">back</a>
+
     <article>
         {{ content | safe}}
     </article>
+    
+    <!-- tag cloud -->
     <ul>
         {% for tag in tags %}
         <a href="/projects/tag/{{ tag | slugify }}">{{ tag }}</a>

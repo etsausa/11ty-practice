@@ -1,6 +1,6 @@
 ---
 title: Smart Decathelon for Pros
-thumbnail: /assets/images/sdipro-logo.jpg
+thumbnail: /assets/images/sdipro-logo.png
 tags:
   - projects
   - web

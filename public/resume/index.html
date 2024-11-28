@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="/css/style.css">
-<title>Resume</title>
+<title>Resume - Ethan Thomas Sausa</title>
 <!-- favicon -->
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
@@ -33,76 +33,105 @@
 <body>
     <header>
         <div class="title-logo-group">
-            <h1 class="title">Ethan Thomas Sausa</h1> 
+            <h1 class="title">ETHAN THOMAS SAUSA</h1> 
             <img src="/assets/images/logo.png" alt="logo image" class="logo">
         </div>
         
         <nav>
             <ul role="list">
-                <li><a href="/">home</a></li>
+                    <li>
+                        <a href="/" >
+                            About
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/projects/" >
+                            Projects
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/resume/" aria-current="page">
+                            Resume
+                        </a>
+                    </li>
+
+                <!-- <li><a href="/">home</a></li>
                 <li><a href="/projects">projects</a></li>
-                <li><a href="/resume">resume</a></li>
-            </ul>
+                <li><a href="/resume">resume</a></li> -->
+            </ul>    
         </nav>    
     </header>
 
-    <main>
-        <h1>Resume</h1>
+    
+
+    <!-- where template content gets placed -->
+    <main class="Resume">
+        <!-- <h1>Resume</h1> --> 
         
         
             
 <!-- resume list -->
-
 <section>
-    <h2>WORK</h2>
+    <h2>EDUCATION</h2>
     <ul role="list">
+        <li><strong>Emerging Media, B.S.,</strong> <i>Magna Cum Laude</i></li>
+        <li><strong>Ithaca College</strong> | 2016 - 2020</li>
+        <li>
+            <ul role="list">
+                <li><i><small>Joint computer science & communications program focused on new media</small></i></li>
+                <li><small>Web Development Minor & Animation Minor</small></li>
+            </ul>
+        </li>
+    </ul>
+</section>
+<br>
+<section>
+    <h2>EXPEREINCE</h2>
+    <ul role="list">
+        <!-- pull data from resume.json  -->
         
             <li>
-                <h3>Digital Marketing Designer</h3>
-<span>Long Island Board of REALTORS®</span><br>
-<span><i>April 2021 - Present</i></span>
-<hr>
+                <!-- this page controls how json data read from the resume json file will display on reumse.html -->
+<span><b>Digital Marketing Designer</b></span>,
+<span>Long Island Board of REALTORS®</span> |
+<span><i><small>April 2021 - Present</small></i></span>
+
             </li>
         
             <li>
-                <h3>IOT Specialist</h3>
-<span>Prosegur</span><br>
-<span><i>December 2020 - April 2021</i></span>
-<hr>
+                <!-- this page controls how json data read from the resume json file will display on reumse.html -->
+<span><b>IOT Specialist</b></span>,
+<span>Prosegur</span> |
+<span><i><small>December 2020 - April 2021</small></i></span>
+
             </li>
         
             <li>
-                <h3>Shift Manager</h3>
-<span>Park Portable Equipment Center and Services</span><br>
-<span><i>August 2017 - March 2020</i></span>
-<hr>
+                <!-- this page controls how json data read from the resume json file will display on reumse.html -->
+<span><b>Shift Manager</b></span>,
+<span>Park Portable Equipment Center and Services</span> |
+<span><i><small>August 2017 - March 2020</small></i></span>
+
             </li>
         
             <li>
-                <h3>Motion Graphics Animator</h3>
-<span>Roy H. Park School of Communications</span><br>
-<span><i>September 2018 - May 2019</i></span>
-<hr>
+                <!-- this page controls how json data read from the resume json file will display on reumse.html -->
+<span><b>Motion Graphics Animator</b></span>,
+<span>Roy H. Park School of Communications</span> |
+<span><i><small>September 2018 - May 2019</small></i></span>
+
             </li>
         
     </ul>
 </section>
 
-<section>
-    <h2>EDUCATION</h2>
-    <h3><strong>Ithaca College</strong> | 2016 - 2020</h3>
-    <h3><strong>Emerging Media, B.S.,</strong> Magna Cum Laude</h3>
-    <span><i>A joint computer science & communications program focused on new media</i></span><br>
-    <span>Web Development Minor & Animation Minor </span><br>
-    <hr>
-</section>
+
 
 
         
     </main>
     
     <footer>
-        <!-- <a href="/contact">contact</a> -->
         developed by ethan sausa with 11ty
     </footer>
 </body>

@@ -1,0 +1,12 @@
+---
+layout: layouts/base.html
+title: 'debug'
+---
+<h1>Debugging Collections</h1>
+<ul>
+  {% for item in collections.debug %}
+    <li>
+      <strong>{{ item.fileSlug }}</strong>: <a href="{{ item.url }}">{{ item.url }}</a>
+    </li>
+  {% endfor %}
+</ul>

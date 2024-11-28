@@ -6,6 +6,13 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addWatchTarget("src/css/");
     eleventyConfig.addPassthroughCopy("src/admin");
 
+    eleventyConfig.addCollection("nav", function (collectionApi) {
+        return collectionApi
+          .getFilteredByTag("nav-item") // Filter by the 'page' tag
+          .sort((a, b) => (a.data.navOrder || 0) - (b.data.navOrder || 0)); // Sort by `navOrder`
+    });
+
+
     return {
         dir: {
             input: 'src',
