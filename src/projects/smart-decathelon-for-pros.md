@@ -1,8 +1,10 @@
 ---
 title: Smart Decathlon for Pros
-thumbnail: /assets/images/sdipro-logo.png
+thumbnail: /assets/images/sdipro_logo-250x.png
 tags:
   - projects
   - web
 ---
 Smart Decathlon for Pros was a competition launched in 2021 to jumpstart consumer demand and ramp up sales of high-performance homes. It was a spin-off of the [Department of Energy's Solar Decathlon](https://www.solardecathlon.gov/) competition for students, except this program was focused on professional builders. You can read more about <a href="https://www.eeba.org/smart-decathlon-for-innovative-professionals-1" target="_blank" rel="noopener noreferrer">SDiPro at the Energy & Environmental Builders Alliance website.</a>
+
+I created the brand for SDiPro and developed a web presence for the competition. 
