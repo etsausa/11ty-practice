@@ -1,6 +1,6 @@
 ---
 title: Smart Decathlon for Pros
-thumbnail: /assets/images/sdipro_logo-250x.png
+thumbnail: /assets/images/sdipro_logo-500x.png
 tags:
   - projects
   - web
