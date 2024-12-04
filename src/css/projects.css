@@ -1,3 +1,29 @@
+#back{
+    display: block;
+    margin: 0 0 1em 0;
+}
+
+.tag{
+    --color: var(--light);
+
+    display: inline-block;
+    
+    color: var(--color);
+    
+    font-size: 0.75rem;
+    font-weight: bold;
+    text-transform: lowercase;
+    text-decoration: none;
+    
+    /* border: 1px solid var(--color); */
+    border-radius: 6em;
+
+    padding: 0.5em 1em; 
+    margin: 0 0.5em 0 0;
+
+    background-color: #007bff;
+}
+
 .project-list{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(var(--min),1fr));
@@ -19,24 +45,31 @@
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+    background-origin: content-box;
+
+    padding: 0.5vw;
     
 
     -webkit-filter: brightness(100%);
     filter: brightness(100%);
-    -webkit-transition: filter 0.2s ease;
-    transition: filter 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+
     
 }
 
 .project-list>li .project-image:hover{
+    padding: 0.1vw;
+
     --dim: 80%;
     -webkit-filter: brightness(var(--dim));
     filter: brightness(var(--dim));
     
+    
 }
 
 .project-list>li .project-title{
-    margin-top: var(--gap);
+    margin-top: calc(var(--gap)/2);
     color:white;
     text-decoration: none;
 }

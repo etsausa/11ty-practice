@@ -40,17 +40,17 @@
         <nav>
             <ul role="list">
                     <li>
-                        <a href="/" >
+                        <a href="/"  class="nav-item">
                             About
                         </a>
                     </li>
                     <li>
-                        <a href="/projects/" >
+                        <a href="/projects/"  class="nav-item">
                             Projects
                         </a>
                     </li>
                     <li>
-                        <a href="/resume/" >
+                        <a href="/resume/"  class="nav-item">
                             Resume
                         </a>
                     </li>
@@ -83,6 +83,10 @@
     
     <li>
         <a href="/projects/hfaou/">Home For All of Us</a>
+    </li>
+    
+    <li>
+        <a href="/projects/libor-marketing-rebranding/">LIBOR Marketing &amp; Rebranding</a>
     </li>
     
     <li>

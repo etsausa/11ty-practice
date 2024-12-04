@@ -16,7 +16,7 @@
             <ul role="list">
                 {%- for item in collections.nav %}
                     <li>
-                        <a href="{{ item.url }}" {% if page.url === item.url %}aria-current="page"{% endif %}>
+                        <a href="{{ item.url }}" {% if page.url === item.url %}aria-current="page"{% endif %} class="nav-item">
                             {{ item.data.title }}
                         </a>
                     </li>

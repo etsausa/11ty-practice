@@ -40,17 +40,17 @@
         <nav>
             <ul role="list">
                     <li>
-                        <a href="/" >
+                        <a href="/"  class="nav-item">
                             About
                         </a>
                     </li>
                     <li>
-                        <a href="/projects/" >
+                        <a href="/projects/"  class="nav-item">
                             Projects
                         </a>
                     </li>
                     <li>
-                        <a href="/resume/" >
+                        <a href="/resume/"  class="nav-item">
                             Resume
                         </a>
                     </li>
@@ -75,10 +75,6 @@
     
     <li>
         <a href="/admin/"></a>
-    </li>
-    
-    <li>
-        <a href="/contact/">contact</a>
     </li>
     
     <li>
@@ -134,11 +130,15 @@
     </li>
     
     <li>
-        <a href="/projects/smart-decathelon-for-pros/">Smart Decathlon for Pros</a>
+        <a href="/resume/">Resume</a>
     </li>
     
     <li>
-        <a href="/resume/">Resume</a>
+        <a href="/projects/libor-marketing-rebranding/">LIBOR Marketing &amp; Rebranding</a>
+    </li>
+    
+    <li>
+        <a href="/projects/smart-decathelon-for-pros/">Smart Decathlon for Pros</a>
     </li>
         
 </ul>

@@ -16,22 +16,15 @@ navOrder: 1
 
 <br>
 <section>
-    <h2>SKILLS</h2>
+    <!-- <h2>SKILLS</h2> -->
     <!-- pulls skills from skill.json -->
     {% for category, tools in skills %}
-        <h3>
-            {{ category }}
-        </h3>
-        <small>
-        {% for tool in tools %}
-            {% if loop.last %}
-                <span>{{ tool }}</span>
-            {% else %}
-                <span>{{ tool }}, </span>
-            {% endif %}
-        {% endfor %}
-        </small>
+        <div class="skill">
+            {% include 'skill-item.html' %}
+        </div>
     {% endfor %}
+    
+        
 </section>
 
 
