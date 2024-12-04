@@ -74,6 +74,10 @@
 <ul>
     
     <li>
+        <a href="/admin/"></a>
+    </li>
+    
+    <li>
         <a href="/contact/">contact</a>
     </li>
     
@@ -94,11 +98,11 @@
     </li>
     
     <li>
-        <a href="/projects/tag/motion-graphics">[object Object]</a>
+        <a href="/projects/tag/web">[object Object]</a>
     </li>
     
     <li>
-        <a href="/projects/tag/web">[object Object]</a>
+        <a href="/projects/tag/motion-graphics">[object Object]</a>
     </li>
     
     <li>
@@ -106,15 +110,11 @@
     </li>
     
     <li>
-        <a href="/admin/"></a>
+        <a href="/debug/">debug</a>
     </li>
     
     <li>
         <a href="/">About</a>
-    </li>
-    
-    <li>
-        <a href="/resume/">Resume</a>
     </li>
     
     <li>
@@ -126,19 +126,19 @@
     </li>
     
     <li>
-        <a href="/projects/hfaou/">Home For All of Us</a>
-    </li>
-    
-    <li>
-        <a href="/projects/smart-decathelon-for-pros/">Smart Decathelon for Pros</a>
-    </li>
-    
-    <li>
         <a href="/projects/cornell-university-instructional-videos/">Cornell University Instructional Videos</a>
     </li>
     
     <li>
-        <a href="/debug/">debug</a>
+        <a href="/projects/hfaou/">Home For All of Us</a>
+    </li>
+    
+    <li>
+        <a href="/projects/smart-decathelon-for-pros/">Smart Decathlon for Pros</a>
+    </li>
+    
+    <li>
+        <a href="/resume/">Resume</a>
     </li>
         
 </ul>
