@@ -74,10 +74,6 @@
 <ul>
     
     <li>
-        <a href="/admin/"></a>
-    </li>
-    
-    <li>
         <a href="/projects/tag/all">[object Object]</a>
     </li>
     
@@ -94,15 +90,19 @@
     </li>
     
     <li>
-        <a href="/projects/tag/web">[object Object]</a>
-    </li>
-    
-    <li>
         <a href="/projects/tag/motion-graphics">[object Object]</a>
     </li>
     
     <li>
+        <a href="/projects/tag/web">[object Object]</a>
+    </li>
+    
+    <li>
         <a href="/projects/tag/nav">[object Object]</a>
+    </li>
+    
+    <li>
+        <a href="/admin/"></a>
     </li>
     
     <li>
@@ -130,15 +130,15 @@
     </li>
     
     <li>
-        <a href="/resume/">Resume</a>
-    </li>
-    
-    <li>
         <a href="/projects/libor-marketing-rebranding/">LIBOR Marketing &amp; Rebranding</a>
     </li>
     
     <li>
         <a href="/projects/smart-decathelon-for-pros/">Smart Decathlon for Pros</a>
+    </li>
+    
+    <li>
+        <a href="/resume/">Resume</a>
     </li>
         
 </ul>
