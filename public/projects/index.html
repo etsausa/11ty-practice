@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="/css/style.css">
-<title>Projects</title>
+<title>Projects - Ethan Thomas Sausa</title>
 <!-- favicon -->
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
@@ -33,43 +33,77 @@
 <body>
     <header>
         <div class="title-logo-group">
-            <h1 class="title">Ethan Thomas Sausa</h1> 
+            <h1 class="title">ETHAN THOMAS SAUSA</h1> 
             <img src="/assets/images/logo.png" alt="logo image" class="logo">
         </div>
         
         <nav>
             <ul role="list">
-                <li><a href="/">home</a></li>
+                    <li>
+                        <a href="/"  class="nav-item">
+                            About
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/projects/" aria-current="page" class="nav-item">
+                            Projects
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/resume/"  class="nav-item">
+                            Resume
+                        </a>
+                    </li>
+
+                <!-- <li><a href="/">home</a></li>
                 <li><a href="/projects">projects</a></li>
-                <li><a href="/resume">resume</a></li>
-            </ul>
+                <li><a href="/resume">resume</a></li> -->
+            </ul>    
         </nav>    
     </header>
 
-    <main>
-        <h1>Projects</h1>
+    
+
+    <!-- where template content gets placed -->
+    <main class="Projects">
+        <!-- <h1>Projects</h1> --> 
         
         
             
 <ul role="list" class="project-list">
     
         <li>
-            <a href="/projects/project1/">
-                <style>
-                    
-                </style>
+            <a href="/projects/cic/">
+                <div class="project-image" style="background-image: url('/assets/images/cic_video.png');"></div>
+                <div class="project-title">Color Is Crazy</div>
+            </a>
+        </li>
+    
+        <li>
+            <a href="/projects/cornell-university-instructional-videos/">
+                <div class="project-image" style="background-image: url('/assets/images/cornell-videos.png');"></div>
+                <div class="project-title">Cornell University Instructional Videos</div>
+            </a>
+        </li>
+    
+        <li>
+            <a href="/projects/hfaou/">
                 <div class="project-image" style="background-image: url('/assets/images/hfaou_mockup.png');"></div>
                 <div class="project-title">Home For All of Us</div>
             </a>
         </li>
     
         <li>
-            <a href="/projects/project2/">
-                <style>
-                    
-                </style>
-                <div class="project-image" style="background-image: url('/assets/images/cic_video.png');"></div>
-                <div class="project-title">Color Is Crazy</div>
+            <a href="/projects/libor-marketing-rebranding/">
+                <div class="project-image" style="background-image: url('/assets/images/libor.png');"></div>
+                <div class="project-title">LIBOR Marketing &amp; Rebranding</div>
+            </a>
+        </li>
+    
+        <li>
+            <a href="/projects/smart-decathelon-for-pros/">
+                <div class="project-image" style="background-image: url('/assets/images/sdipro_logo-500x.png');"></div>
+                <div class="project-title">Smart Decathlon for Pros</div>
             </a>
         </li>
     
@@ -88,7 +122,6 @@
     </main>
     
     <footer>
-        <!-- <a href="/contact">contact</a> -->
         developed by ethan sausa with 11ty
     </footer>
 </body>

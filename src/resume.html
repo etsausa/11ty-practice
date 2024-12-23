@@ -1,13 +1,29 @@
 ---
 layout: layouts/base.html
 title: Resume
+tags: nav-item
+navOrder: 3
 ---
 
 <!-- resume list -->
-
 <section>
-    <h2>WORK</h2>
+    <h2>EDUCATION</h2>
     <ul role="list">
+        <li><strong>Emerging Media, B.S.,</strong> <i>Magna Cum Laude</i></li>
+        <li><strong>Ithaca College</strong> | 2016 - 2020</li>
+        <li>
+            <ul role="list">
+                <li><i><small>Joint computer science & communications program focused on new media</small></i></li>
+                <li><small>Web Development Minor & Animation Minor</small></li>
+            </ul>
+        </li>
+    </ul>
+</section>
+<br>
+<section>
+    <h2>EXPEREINCE</h2>
+    <ul role="list">
+        <!-- pull data from resume.json  -->
         {% for job in resume %}
             <li>
                 {% include 'resume-item.html' %}
@@ -16,12 +32,5 @@ title: Resume
     </ul>
 </section>
 
-<section>
-    <h2>EDUCATION</h2>
-    <h3><strong>Ithaca College</strong> | 2016 - 2020</h3>
-    <h3><strong>Emerging Media, B.S.,</strong> Magna Cum Laude</h3>
-    <span><i>A joint computer science & communications program focused on new media</i></span><br>
-    <span>Web Development Minor & Animation Minor </span><br>
-    <hr>
-</section>
+
 

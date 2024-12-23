@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="/css/style.css">
-<title>[object Object]</title>
+<title>[object Object] - Ethan Thomas Sausa</title>
 <!-- favicon -->
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
@@ -33,21 +33,40 @@
 <body>
     <header>
         <div class="title-logo-group">
-            <h1 class="title">Ethan Thomas Sausa</h1> 
+            <h1 class="title">ETHAN THOMAS SAUSA</h1> 
             <img src="/assets/images/logo.png" alt="logo image" class="logo">
         </div>
         
         <nav>
             <ul role="list">
-                <li><a href="/">home</a></li>
+                    <li>
+                        <a href="/"  class="nav-item">
+                            About
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/projects/"  class="nav-item">
+                            Projects
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/resume/"  class="nav-item">
+                            Resume
+                        </a>
+                    </li>
+
+                <!-- <li><a href="/">home</a></li>
                 <li><a href="/projects">projects</a></li>
-                <li><a href="/resume">resume</a></li>
-            </ul>
+                <li><a href="/resume">resume</a></li> -->
+            </ul>    
         </nav>    
     </header>
 
-    <main>
-        <h1>[object Object]</h1>
+    
+
+    <!-- where template content gets placed -->
+    <main class="[object Object]">
+        <!-- <h1>[object Object]</h1> --> 
         
         
             
@@ -55,7 +74,7 @@
 <ul>
     
     <li>
-        <a href="/contact/">contact</a>
+        <a href="/admin/"></a>
     </li>
     
     <li>
@@ -63,11 +82,7 @@
     </li>
     
     <li>
-        <a href="/projects/tag/web">[object Object]</a>
-    </li>
-    
-    <li>
-        <a href="/projects/tag/video">[object Object]</a>
+        <a href="/projects/tag/nav-item">[object Object]</a>
     </li>
     
     <li>
@@ -75,15 +90,27 @@
     </li>
     
     <li>
-        <a href="/admin/"></a>
+        <a href="/projects/tag/video">[object Object]</a>
     </li>
     
     <li>
-        <a href="/">Hi, my name is Ethan.</a>
+        <a href="/projects/tag/web">[object Object]</a>
     </li>
     
     <li>
-        <a href="/resume/">Resume</a>
+        <a href="/projects/tag/motion-graphics">[object Object]</a>
+    </li>
+    
+    <li>
+        <a href="/projects/tag/nav">[object Object]</a>
+    </li>
+    
+    <li>
+        <a href="/debug/">debug</a>
+    </li>
+    
+    <li>
+        <a href="/">About</a>
     </li>
     
     <li>
@@ -91,7 +118,11 @@
     </li>
     
     <li>
-        <a href="/projects/project1/">Home For All of Us</a>
+        <a href="/projects/cic/">Color Is Crazy</a>
+    </li>
+    
+    <li>
+        <a href="/projects/cornell-university-instructional-videos/">Cornell University Instructional Videos</a>
     </li>
     
     <li>
@@ -99,15 +130,15 @@
     </li>
     
     <li>
-        <a href="/projects/project2/">Color Is Crazy</a>
+        <a href="/resume/">Resume</a>
     </li>
     
     <li>
-        <a href="/projects/cic/">Color Is Crazy</a>
+        <a href="/projects/libor-marketing-rebranding/">LIBOR Marketing &amp; Rebranding</a>
     </li>
     
     <li>
-        <a href="/projects/smart-decathelon-for-pros/">Smart Decathelon for Pros</a>
+        <a href="/projects/smart-decathelon-for-pros/">Smart Decathlon for Pros</a>
     </li>
         
 </ul>
@@ -116,7 +147,6 @@
     </main>
     
     <footer>
-        <!-- <a href="/contact">contact</a> -->
         developed by ethan sausa with 11ty
     </footer>
 </body>
