@@ -90,11 +90,11 @@
     </li>
     
     <li>
-        <a href="/projects/tag/motion-graphics">[object Object]</a>
+        <a href="/projects/tag/web">[object Object]</a>
     </li>
     
     <li>
-        <a href="/projects/tag/web">[object Object]</a>
+        <a href="/projects/tag/motion-graphics">[object Object]</a>
     </li>
     
     <li>
@@ -139,6 +139,10 @@
     
     <li>
         <a href="/resume/">Resume</a>
+    </li>
+    
+    <li>
+        <a href="/projects/room-to-think/">Room To Think</a>
     </li>
         
 </ul>
